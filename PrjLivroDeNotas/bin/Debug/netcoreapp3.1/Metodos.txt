@@ -1,0 +1,34 @@
+
+fullname string   //Nome da categoria
+" //optional category data
+aggregation int  Opcional //Forma de agregação das notas
+{
+	aggregation = 0 // Média das notas
+	aggregation = 2 // Mediana das notas
+	aggregation = 4 // Menor Nota
+	aggregation = 6 // Maior Nota
+	aggregation = 8 // Moda das Notas
+	aggregation = 10 // Média Ponderada das notas
+	aggregation = 11 // Média Ponderada simples das notas
+	aggregation = 12 // Média das notas (com pontos extras)
+	aggregation = 13 // Soma das notas (Natural)
+}
+
+aggregateonlygraded int  Opcional //Desconsiderar notas vazias (0 desmarcado - 1 marcado)
+aggregateoutcomes int  Opcional //aggregate outcomes
+droplow int  Opcional //Descartar as menores
+itemname string  Opcional //Nome para o total da categoria
+iteminfo string  Opcional //Informação do item
+idnumber string  Opcional //Número de identificação do módulo
+gradetype int  Opcional //Tipo de notas
+grademax int  Opcional //Nota máxima
+grademin int  Opcional //Nota mínima
+gradepass int  Opcional //Nota para aprovação
+display int  Opcional //the display type
+decimals int  Opcional //Pontos decimais geral
+hiddenuntil int  Opcional //oculto (0 desmarcado - 1 marcado)
+locktime int  Opcional //lock grades after
+weightoverride int  Opcional //weight adjusted
+aggregationcoef2 string  Opcional //weight coefficient
+parentcategoryid int  Opcional //The parent category id
+parentcategoryidnumber string  Opcional //the parent category idnumber

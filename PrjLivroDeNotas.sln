@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31402.337
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrjLivroDeNotas", "PrjLivroDeNotas\PrjLivroDeNotas.csproj", "{5F6C934A-10FE-4CA0-9D7B-958316A9C7EA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5F6C934A-10FE-4CA0-9D7B-958316A9C7EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F6C934A-10FE-4CA0-9D7B-958316A9C7EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F6C934A-10FE-4CA0-9D7B-958316A9C7EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F6C934A-10FE-4CA0-9D7B-958316A9C7EA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B474E3AF-603A-4487-98FA-C9759703C3DD}
+	EndGlobalSection
+EndGlobal
